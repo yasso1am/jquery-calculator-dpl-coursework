@@ -1,0 +1,51 @@
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <title>JQuery Calculator</title>
+</head>
+<body>
+  <div class="selectAll">
+    <div class="header">
+      <h1> JQuery Calculator </h1>
+    </div>
+    <div class="wrapper">
+    <section class="main">
+       
+            <input id="input" type="text" value="" />
+        
+        <div id="firstRow">
+          <button class="selection" data-type="1" type="button">1</button>
+          <button class="selection" data-type="2" type="button">2</button>
+          <button class="selection" data-type="3" type="button">3</button>
+          <button class="selection" data-type="+" type="button">+</button>
+        </div>
+        <div id="secondRow">
+            <button class="selection" data-type="4" type="button">4</button>
+            <button class="selection" data-type="5" type="button">5</button>
+            <button class="selection" data-type="6" type="button">6</button>
+            <button class="selection" data-type="-" type="button">-</button>
+        </div>
+        <div id="thirdRow">
+            <button class="selection" data-type="7" type="button">7</button>
+            <button class="selection" data-type="8" type="button">8</button>
+            <button class="selection" data-type="9" type="button">9</button>
+            <button class="selection" data-type="*" type="button">*</button>
+        </div>
+        <div id="fourthRow">
+            <button id="zero" class="selection" data-type="0" type = "button">0</button>
+            <button class="selection" data-type="." type = "button">.</button>
+            <button class="selection" data-type="/" type = "button">/</button>
+        </div>
+        <div id="fifthRow">
+            <button class="selection" data-type="clear" type="button">C</button>
+            <button class="selection" data-type="=" type="button">=</button>
+        </div>
+      </section>
+      </div>
+
+  </div>
+    <script src="./jquery-3.3.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

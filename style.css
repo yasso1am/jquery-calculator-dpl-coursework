@@ -1,0 +1,48 @@
+.selectAll{
+  text-align: center;
+}
+
+.header {
+  width: auto;
+  font-size: 30px;
+  margin: 20px 10px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+  margin: 20px;
+}
+
+#input {
+  display: flex;
+  width: 250px;
+  height: 60px;
+  font-size: 28px;
+  text-align: right;
+}
+
+.main button {
+  border-radius: 40%;
+  font-size: 30px;
+  margin: 5px;
+  padding: 10px 20px;
+  background: white;
+  color: black;
+  font-weight: 800;
+  width: auto;
+}
+
+#zero {
+  padding: 10px 60px;
+}
+
+#fifthRow button {
+  padding: 10px 50px;
+}
